@@ -11,7 +11,7 @@ def main():
     longpoll = VkBotLongPoll(vk_session, 203543139)
     a = 0
     spisok = 0
-    image = 'C:/Users/boits/PycharmProjects/proekt/dead.png'
+    image = 'dead.png'
     upload = VkUpload(vk_session)
     slovar_sovet = {1: 'Имей позитивный настрой', 2: 'Найди дело по душе', 3: 'Упростите свою жизнь',
                     4: 'Занимайтесь спортом', 5: 'Посмотрите мотивирующие фильмы', 6: 'Правильно питайтесь',
